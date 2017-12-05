@@ -7,7 +7,7 @@ title: Ciel's Blog
 subtitle:
 description:
 author: Ciel
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -80,3 +80,23 @@ deploy:
   type: git
   repo: https://github.com/cielzhao/cielzhao.github.io.git
   branch: master
+
+#jsonContent配置
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
