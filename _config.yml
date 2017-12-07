@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cielzhao.com
+url: http://cielzhao.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -71,6 +71,13 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugin: hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom # 表示类型, 是 atom 还是 rss2
+  path: atom.xml # 表示 Feed 路径
+  limit: 20 # 最多多少篇最近文章
+
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-yilia
 
