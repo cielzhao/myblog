@@ -12,18 +12,19 @@ tags:
 
 关于评论插件，之所以用[友言](http://www.uyan.cc/)，是因为没有其他选择了。其实更喜欢[畅言](http://changyan.kuaizhan.com/)的样式，yilia主题也支持配置，可无奈畅言需要域名备案，我是基于github搭建的，没打算买服务器，只能放弃。网上搜索其他方法，有人说可以随便找个已经备案的域名，通过审核之后再换成自己的就行，暂且不论是否可行，在未经许可的情况下用别人的备案域名总是不好的，于是放弃。后来发现有人用友言配置，评论功能也还行，果断注册使用。可以参考 [Hexo + yilia 主题 +githubpages博客添加友言评论功能](http://www.jianshu.com/p/b2abb157f1fa) 这篇文章添加友言评论功能。
 
-搭建完成之后，运行命令
+搭建完成之后，运行命令：
 ``` bash
 $ hexo server
 ```
-，在浏览器打开 http://localhost:4000 就能看到效果。
-然后继续运行命令
+在浏览器打开 http://localhost:4000 就能看到效果。
+然后继续运行命令：
 ``` bash
 $ hexo clean
 $ hexo generate
 $ hexo deploy
 ```
-（以上命令除了 hexo clean 之外都有简写，hexo加后一个单词的首字母即可）就可以同步到github，这时候打开域名就能看到完整效果。每次用命令同步到github上的文件只有yilia主题source目录下的文件：![image.png](http://upload-images.jianshu.io/upload_images/1657993-14ffaed82e5ef725.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+（以上命令除了 hexo clean 之外都有简写，hexo加后一个单词的首字母即可）就可以同步到github，这时候打开域名就能看到完整效果。每次用命令同步到github上的文件只有yilia主题source目录下的文件：
+![image.png](http://upload-images.jianshu.io/upload_images/1657993-14ffaed82e5ef725.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 其中的CNAME不是自动生成的，要单独加进去，不然的话直接打开域名就找不到页面了。
 
