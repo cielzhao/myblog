@@ -4,7 +4,7 @@ date: 2017-12-18 21:34:25
 tags: 
  - css
 ---
-position 属性在页面布局定位元素的时候会经常用到，自以为已经运用的很熟练，直到有一天发现对 relative 的理解居然有错，于是在 [W3school](http://www.w3school.com.cn/cssref/pr_class_position.asp) 上重新看了一遍教程。在此记录一下自己的理解，加深印象。
+position 属性在页面布局定位元素的时候会经常用到，自以为已经运用的很熟练，直到有一天发现对 relative 的理解居然有错，于是在 [W3school](www.w3school.com.cn/cssref/pr_class_position.asp) 上重新看了一遍教程。在此记录一下自己的理解，加深印象。
 
 position 属性规定元素的定位类型，可能的值有五个，分别是 static, inherit, relative, absolute, fixed。所有主流浏览器都支持 position 属性，但任何版本的 Internet Explorer （包括 IE8）都不支持属性值 "inherit"。
 - static
